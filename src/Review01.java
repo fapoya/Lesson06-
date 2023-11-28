@@ -4,7 +4,7 @@ public class Review01 {
     public static void main(String[] args) {
         int price = 1997; //商品価格
         int taxPrice = tax(price); //消費税額を計算
-        int priceTotal = price + taxPrice;  //税込み価格を計算
+        int priceTotal = price + taxPrice; //税込み価格を計算
 
         System.out.println(price + "円の商品の税込価格は" + priceTotal + "円（消費税は" + taxPrice + "円）です。");
 
